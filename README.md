@@ -55,7 +55,7 @@ Please create a new [issue](https://github.com/lucasrochagit/image-classifier/is
 * **Eduardo Borba** - *Initial work* 
     * [Linkedin](https://www.linkedin.com/in/eduardo-queiroz-78aa83150/)
 * **Lucas Rocha** - *Project Maintainer*
-    *[Linkedin](https://www.linkedin.com/in/lucasrochacc/)
+    * [Linkedin](https://www.linkedin.com/in/lucasrochacc/)
     
 
 ## License
