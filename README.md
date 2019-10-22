@@ -9,42 +9,50 @@ This project utilizes the potential of machine learning to learn numerical patte
 
 ### Installing
 
-#### Create a Virtual environment with the python version 3.6.3 into the project path
-##### Windows 
+#### 1. Create a Virtual environment with the python version 3.6.3 into the project path
+##### 1.1 Windows
 ```sh
-virtualenv --python=PATH_TO_PYTHON_3.6.3 venv
+virtualenv --python=PATH_TO_PYTHON_3.6.3.exe venv
 ```
-##### Linux
+##### 1.2 Linux
 ```sh
 virtualenv --python=/usr/bin/python3.6 
 ```
-#### Make the Virtual Environment Active
-##### Windows
+#### 2. Make the Virtual Environment Active
+##### 2.1 Windows
 ```sh
 source venv/Scripts/activate
 ```
-##### Linux
+##### 2.2 Linux
 ```sh
 source venv/bin/activate
 ```
-#### Install this packages in specific versions
+#### 3. Install this packages in specific versions
 ```sh
 pip install numpy==1.17.0 
 pip install scipy==1.0.0
 pip install scikit-image==0.14.2
 pip install scikit-learn==0.19.1
 ```
-#### Install this packages normally
+#### 4. Install this packages normally
 ```sh
 pip install flask
-pip install jupyter
+pip install jupyterlab
 pip install wget
 ```
 
+#### 5. Running Application
+```sh
+export FLASK_APP=srv.py && cd digits_classifier && flask run
+```
 
 ### Recomendations
 
 Use the [Pycharm IDE](https://www.jetbrains.com/pycharm/) to manage your apps.
+
+If you have an access from Intel AI Dev Cloud and want run this application on your virtual machine, only install the
+wget package and run all blocks from [MNIST](MNIST.ipynb) file. After that, copy all path from your local machine,
+make all the steps bellow.
 
 ## Contributing
 
