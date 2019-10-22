@@ -5,18 +5,18 @@ This project utilizes the potential of machine learning to learn numerical patte
 ## Getting Started
 ### Prerequisites
 
-* [Python - Version 3.6.3](https://www.python.org/downloads/release/python-363/) - It can be the major version of python or a minor version.
+* [Python - Version 3.6.3](https://www.python.org/downloads/release/python-363/) - It can be the major version of python or a minor version. You can easily mantain multiple versions from python with [Pyenv](https://github.com/pyenv/pyenv) library.
 
 ### Installing
 
 #### 1. Create a Virtual environment with the python version 3.6.3 into the project path
 ##### 1.1 Windows
 ```sh
-virtualenv --python=PATH_TO_PYTHON_3.6.3.exe venv
+virtualenv --python={PATH_TO_PYTHON_3.6.3}/python.exe venv
 ```
 ##### 1.2 Linux
 ```sh
-virtualenv --python=/usr/bin/python3.6 
+virtualenv --python={PATH_TO_PYTHON_3.6.3}/python3.6 
 ```
 #### 2. Make the Virtual Environment Active
 ##### 2.1 Windows
