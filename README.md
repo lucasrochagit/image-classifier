@@ -68,6 +68,6 @@ Please create a new [issue](https://github.com/lucasrochagit/image-classifier/is
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the Apache License - see the [LICENSE.md](LICENSE) file for details
 
 
