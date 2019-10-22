@@ -43,6 +43,14 @@ pip install wget
 ```
 
 #### 5. Running Application
+
+First running all the [MNIST](MNIST.ipynb) file with Jupyter Notebook.
+```sh
+jupyter notebook
+```
+
+After that, close the jupyter notebook and run the commands:
+
 ```sh
 export FLASK_APP=srv.py && cd digits_classifier && flask run
 ```
