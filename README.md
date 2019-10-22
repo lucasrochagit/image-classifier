@@ -36,8 +36,9 @@ pip install scikit-learn==0.19.1
 ```
 #### 4. Install this packages normally
 ```sh
-pip install flask
+pip install matplotlib
 pip install jupyterlab
+pip install flask
 pip install wget
 ```
 
