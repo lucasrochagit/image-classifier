@@ -71,6 +71,7 @@ Please create a new [issue](https://github.com/lucasrochagit/image-classifier/is
 
 * **Eduardo Borba** - *Initial work* 
     * [Linkedin](https://www.linkedin.com/in/eduardo-queiroz-78aa83150/)
+    * [Github](https://github.com/EduBrQ)
 * **Lucas Rocha** - *Project Maintainer*
     * [Linkedin](https://www.linkedin.com/in/lucasrochacc/)
     
