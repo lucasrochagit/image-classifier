@@ -21,7 +21,7 @@ virtualenv --python={PATH_TO_PYTHON_3.6.3}/python3.6
 #### 2. Make the Virtual Environment Active
 ##### 2.1 Windows
 ```sh
-source venv/Scripts/activate
+\venv\Scripts\activate.bat
 ```
 ##### 2.2 Linux
 ```sh
@@ -29,20 +29,10 @@ source venv/bin/activate
 ```
 #### 3. Install this packages in specific versions
 ```sh
-pip install numpy==1.17.0 
-pip install scipy==1.0.0
-pip install scikit-image==0.14.2
-pip install scikit-learn==0.19.1
-```
-#### 4. Install this packages normally
-```sh
-pip install matplotlib
-pip install jupyterlab
-pip install flask
-pip install wget
+pip install -r requeriments.txt
 ```
 
-#### 5. Running Application
+#### 4. Running Application
 
 First running all the [MNIST](MNIST.ipynb) file with Jupyter Notebook.
 ```sh
@@ -51,6 +41,12 @@ jupyter notebook
 
 After that, close the jupyter notebook and run the commands:
 
+##### 4.1 Windows
+```sh
+set FLASK_APP=srv.py && cd digits_classifier && flask run
+```
+
+##### 4.2 Linux
 ```sh
 export FLASK_APP=srv.py && cd digits_classifier && flask run
 ```
