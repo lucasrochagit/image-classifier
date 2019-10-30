@@ -16,7 +16,7 @@ virtualenv --python={PATH_TO_PYTHON_3.6.3}/python.exe venv
 ```
 ##### 1.2 Linux
 ```sh
-virtualenv --python={PATH_TO_PYTHON_3.6.3}/python3.6 
+virtualenv --python={PATH_TO_PYTHON_3.6.3}/python3.6 venv
 ```
 #### 2. Make the Virtual Environment Active
 ##### 2.1 Windows
